@@ -1,7 +1,7 @@
 {
   "name": "react",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is a learning project for react.js and Flux",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,8 +9,24 @@
   "author": "Shuai Zhang",
   "license": "ISC",
   "dependencies": {
+    "browserify": "^13.0.0",
     "gulp": "^3.9.1",
     "gulp-connect": "^3.2.0",
-    "gulp-open": "^1.0.0"
-  }
+    "gulp-open": "^1.0.0",
+    "reactify": "^1.1.1",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zscn/react.git"
+  },
+  "keywords": [
+    "react",
+    "flux"
+  ],
+  "bugs": {
+    "url": "https://github.com/zscn/react/issues"
+  },
+  "homepage": "https://github.com/zscn/react#readme"
 }
